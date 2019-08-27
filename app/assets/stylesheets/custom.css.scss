@@ -1,9 +1,87 @@
+header{
+    background: rgb(47, 47, 189);
+    width: 100% !important;
+}
+.login-form{
+    float: right;
+}
+#login-button{
+    margin-top: 18px;
+    margin-left: 18px;
+    padding: 2px;
+    margin-right: 20px;
+}
+
 
 #logo{
-    float: left;
+    color: white;
+    font-size: 20px;
     margin-right: 200px;
-    background-color: blue;
 }
-.form-inline{
+
+#text-area{
+    width:30%;
+    height: 150px;
+    
+}
+
+
+#logo:hover{
+    background-color: blue;
+    color: black;
+}
+
+.home-page{
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+}
+
+.home-btn{
+    color: white;
+}
+
+.input-field{
+    margin: 5px;
+    padding: 5px;
+}
+.user-form{
+    float: left;
+}
+#user-create{
     float: right;
+}
+
+.label-field{
+    color: white;
+}
+.make-margin{
+    margin-top: 200px;
+}
+
+.footer{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   background: rgb(47, 47, 189);
+   color:white;
+   text-align: center;
+   margin-top:20px;
+}
+
+.add-post{
+    margin-left: 200px;
+}
+
+.link-nav{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+.link-nav:hover{
+    text-decoration: none;
+    background-color: blue;
+    color: black;
 }

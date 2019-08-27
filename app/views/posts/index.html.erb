@@ -1,31 +1,30 @@
-<p id="notice"><%= notice %></p>
-
+<div class="row">
+  <div class="col-4"> 
+    <div class="card-deck" style="width:400px; height:100%; background-color:white">
+    <div class="card bg-light">
+    <div class="card-body text-center">
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="col-4">
+  <p id="notice"><%= notice %></p>
 <h1>Posts</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Content</th>
-      <th>Image</th>
-      <th>User</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @posts.each do |post| %>
-      <tr>
-        <td><%= post.content %></td>
-        <td><%= image_tag post.image.url, size: "200x200" unless post.image.url.blank? %></td>
-        <td><%= post.user.firstname %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
+<% @posts.each do |post| %>
+<div class="card">
+  <div class="card-header"><%= post.content %></div>
+  <div class="card-body"><%= image_tag post.image.url, size: "300x300" unless post.image.url.blank? %></div> 
+  <div class="card-body">Tagged By: <%= post.user.firstname %></div>
+  <div class="card-footer row">
+  <div class="link-nav"><%= link_to 'Show', post %></div>
+  <div class="link-nav"><%= link_to 'Edit', edit_post_path(post) %></div>
+  <div class="link-nav"><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></div>
+  </div>
+</div>
 <br>
+<% end %>
 
 <%= link_to 'New Post', new_post_path %>
+</div>
+
+</div>
