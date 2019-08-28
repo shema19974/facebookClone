@@ -1,23 +1,31 @@
-header{
-    background: rgb(47, 47, 189);
-    width: 100% !important;
+.form-label{
+    margin-left: 5px;
+    margin-right: 5px;
 }
-.login-form{
-    float: right;
-}
-#login-button{
-    margin-top: 18px;
-    margin-left: 18px;
-    padding: 2px;
-    margin-right: 20px;
+.submit-btn{
+    margin-left: 5px;
 }
 
+.text-class{
+    margin-top: 35px;
+}
+
+.form-class{
+    margin-top: 35px;
+}
+
+.logo{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-right: 250px;
+}
 
 #logo{
-    color: white;
-    font-size: 20px;
-    margin-right: 200px;
+    font-size: 25px;
+    margin-left: 75px;
+    margin-right: 250px;
 }
+
 
 #text-area{
     width:30%;
@@ -26,7 +34,7 @@ header{
 }
 
 
-#logo:hover{
+.logo:hover{
     background-color: blue;
     color: black;
 }
@@ -59,16 +67,7 @@ header{
     margin-top: 200px;
 }
 
-.footer{
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:40px;   /* Height of the footer */
-   background: rgb(47, 47, 189);
-   color:white;
-   text-align: center;
-   margin-top:20px;
-}
+
 
 .add-post{
     margin-left: 200px;
@@ -83,5 +82,5 @@ header{
 .link-nav:hover{
     text-decoration: none;
     background-color: blue;
-    color: black;
+    color: rgb(54, 13, 238);
 }

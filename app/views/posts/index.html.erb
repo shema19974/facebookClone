@@ -12,7 +12,7 @@
 <h1>Posts</h1>
 <% @posts.each do |post| %>
 <div class="card">
-  <div class="card-header"><%= post.content %></div>
+  <div class="card-body"><%= post.content %></div>
   <div class="card-body"><%= image_tag post.image.url, size: "300x300" unless post.image.url.blank? %></div> 
   <div class="card-body">Tagged By: <%= post.user.firstname %></div>
   <div class="card-footer row">
