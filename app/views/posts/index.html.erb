@@ -16,9 +16,13 @@
   <div class="card-body"><%= image_tag post.image.url, size: "300x300" unless post.image.url.blank? %></div> 
   <div class="card-body">Tagged By: <%= post.user.firstname %></div>
   <div class="card-footer row">
+  <% if logged_in? %>
+  <%if current_user.id == post.user.id%>
   <div class="link-nav"><%= link_to 'Show', post %></div>
   <div class="link-nav"><%= link_to 'Edit', edit_post_path(post) %></div>
   <div class="link-nav"><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></div>
+  <%end%>
+  <% end %>
   </div>
 </div>
 <br>
