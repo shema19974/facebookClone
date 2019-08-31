@@ -15,15 +15,15 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Other link
+            Other links
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <% if logged_in? %>
-            <%= link_to "Logout", session_path(current_user.id), method: :delete, class:"dropdown-item" %>
+            <%= link_to "Logout", session_path(current_user.id), method: :delete, class:"dropdown-item nav-btn" %>
             <br>
-            <%= link_to "Profile", user_path(current_user.id),class:"dropdown-item" %>
+            <%= link_to "Profile", user_path(current_user.id),class:"dropdown-item nav-btn" %>
             <br>
-            <%= link_to 'New Post', new_post_path, class:"dropdown-item" %>
+            <%= link_to 'New Post', new_post_path, class:"dropdown-item nav-btn" %>
               <% end%>
             
           </div>
