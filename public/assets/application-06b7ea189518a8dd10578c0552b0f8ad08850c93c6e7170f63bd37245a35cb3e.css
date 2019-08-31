@@ -1,0 +1,120 @@
+/* line 1, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.form-label {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 5, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.submit-btn {
+  margin-left: 5px;
+}
+
+/* line 9, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.text-class {
+  margin-top: 35px;
+}
+
+/* line 13, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.form-class {
+  margin-top: 35px;
+}
+
+/* line 17, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.logo {
+  font-size: 25px;
+  margin-left: 75px;
+  margin-right: 250px;
+}
+
+/* line 23, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+#logo {
+  font-size: 25px;
+  margin-left: 75px;
+  margin-right: 250px;
+}
+
+/* line 30, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+#text-area {
+  width: 30%;
+  height: 150px;
+}
+
+/* line 37, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.logo:hover {
+  background-color: blue;
+  color: black;
+}
+
+/* line 42, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.home-page {
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+}
+
+/* line 48, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.home-btn {
+  color: white;
+}
+
+/* line 52, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.input-field {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* line 56, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.user-form {
+  float: left;
+}
+
+/* line 59, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+#user-create {
+  float: right;
+}
+
+/* line 63, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.label-field {
+  color: white;
+}
+
+/* line 66, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.make-margin {
+  margin-top: 200px;
+}
+
+/* line 72, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.add-post {
+  margin-left: 200px;
+}
+
+/* line 76, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.link-nav {
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+/* line 82, /home/vagrant/workspace/facebookClone/app/assets/stylesheets/custom.css.scss */
+.link-nav:hover {
+  text-decoration: none;
+  background-color: blue;
+  color: #360dee;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
