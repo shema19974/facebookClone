@@ -1,10 +1,10 @@
-<% if logged_in?%>
-   <nav class="navbar navbar-expand-lg navbar-light bg-blue home-page">
+<% if logged_in? %>
+  <nav class="navbar navbar-expand-lg navbar-light bg-blue home-page">
     <%= link_to 'FaceBook', posts_path, class:"navbar-brand", id:"logo"%>
     <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+    </form>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
@@ -31,5 +31,4 @@
       </ul>
     </div>
   </nav>
-<% else %> 
-<% end %>
+<%end%>
